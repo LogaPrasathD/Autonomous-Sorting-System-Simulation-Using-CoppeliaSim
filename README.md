@@ -32,8 +32,8 @@ To design an **autonomous industrial sorting system** using **mechatronics and A
 2. **Proximity sensor** halts conveyor.
 3. **Vision sensor** captures and classifies object using HSV:
    - Red: 0–10°
-   - Green: 50–70°
-   - Blue: 100–130°
+   - Green: 100–140°
+   - Blue: 210–270°
 4. **If matched**: 6-axis robot performs pick-and-place to the respective conveyor using inverse kinematics.
 5. **If unmatched**: Object continues on U-conveyor.
 
