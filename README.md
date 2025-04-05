@@ -21,7 +21,7 @@ To design an **autonomous industrial sorting system** using **mechatronics and A
 - **U-shaped conveyor** (Input).
 - **Proximity sensor** – detects incoming object.
 - **Vision sensor** – captures image for color classification.
-- **6-axis robot** – picks and places colored cubes.
+- **6-axis robot** – picks and places colored objects.
 - **Three straight conveyors** – Red, Green, Blue outputs.
 
 ---
