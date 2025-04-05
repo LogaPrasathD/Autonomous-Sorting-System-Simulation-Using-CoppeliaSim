@@ -1,0 +1,31 @@
+{  
+  "conveyor_speeds": {  
+    "u_shaped": 0.1,  
+    "straight": 0.1  
+  },  
+  "vision_sensor": {  
+    "resolution": [256,256],  
+    "hsv_thresholds": {  
+      "red": [255,0,0],  
+      "green": [0,255,0],  
+      "blue": [0,0,255]  
+    }  
+  },  
+  "robot": {  
+    "joint_limits": [  
+      [-180, 180],  
+      [-180, 180],  
+      [-180, 180],  
+      [-180, 180],  
+      [-180, 180],  
+      [-180, 180]  
+    ],  
+    "gripper_force" =>
+	maxpull force = 3
+	maxshear force = 1
+	max peel torque = 0.1 
+  },  
+  "delays": {    
+    "vision_processing": 0.5  
+  }  
+} 
